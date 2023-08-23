@@ -14,6 +14,7 @@
 .h1 {
   font-size: var(--fs-3);
   font-weight: var(--fw-800);
+  white-space: nowrap;
 }
 
 .h1,
@@ -353,6 +354,9 @@ nav { margin-block-end: auto; }
     flex-direction: column;
     gap: 0px;
   }
+  .footer-list-title{
+    text-align: center;
+  }
 } 
 
 details{
@@ -487,13 +491,17 @@ transition: border 300ms ease;
   .links-resume{
     gap: 15px;
     flex-direction: column;
+    align-items: center;
+    max-width: 100%;
 }
+
 }
 .fa-envelope{
   margin-right: 5px;
   display: flex;
   align-items: center;
 }
+
 .hero .section-text { 
   margin-block: 30px; 
   text-align: justify;
