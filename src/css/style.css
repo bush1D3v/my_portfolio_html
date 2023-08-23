@@ -349,7 +349,7 @@ nav { margin-block-end: auto; }
 
 /*TEMPORÁRIO*/
 
-@media(max-width:960px){
+@media(max-width:992px){
   .navbar-list{
     flex-direction: column;
     gap: 0px;
@@ -382,6 +382,54 @@ details{
 
 .card-content .div-links a:hover{
   color: var(--roman-silver);
+}
+
+.slider.fade-in{
+  position: relative;
+}
+
+.slider.fade-in .arrow-animate{
+  display: none;
+  position: absolute;
+  right: 20px;
+  bottom: 5vh;
+}
+
+@media(max-width:992px){
+  .slider.fade-in .arrow-animate{
+    display: block;
+  }
+}
+
+.slider.fade-in .arrow-animate .text-absolute{
+  position: relative;
+  width: 85px;
+}
+
+.slider.fade-in .arrow-animate .text-absolute p{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  color: var(--white);
+}
+
+.slider.fade-in .arrow-animate ion-icon{
+  color: var(--white);
+  scale: 2.5;
+  position: absolute;
+  bottom: 0.1vh;
+  right: 0;
+  z-index: 1;
+  animation: leftuparrow 0.6s infinite alternate ease-in-out;
+}
+
+@keyframes leftuparrow{
+  0% {
+      -webkit-transform: rotate(45deg) translateX(-0.7em); opacity: 0.4;
+  }
+  100%{
+      -webkit-transform: rotate(25deg) translateX(0); opacity: 0.9; 
+  }
 }
 
 /* CONTINUAÇÃO */
@@ -1079,7 +1127,7 @@ textarea::placeholder{
  * 992px 
  */
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
 
   /**
    * estilo
@@ -1144,7 +1192,7 @@ textarea::placeholder{
   
 
 }
-@media (min-width: 960px){
+@media (min-width: 993px){
  
   /**
    * header
