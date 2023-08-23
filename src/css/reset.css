@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li { list-style: none; }
+
+a,
+img,
+span,
+data,
+button,
+ion-icon { display: block; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img { height: auto; }
+
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+ion-icon { pointer-events: none; }
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  font-family: var(--ff-lato);
+}
+
+body {
+  background-color: var(--cinza-escuro);
+  color: var(--roman-silver);
+  font-size: 1.6rem;
+  line-height: 1.75;
+  overflow: hidden;
+}
+
+body.loaded { overflow: overlay; }
+
+body.nav-active { 
+  overflow: hidden; 
+  
+}
