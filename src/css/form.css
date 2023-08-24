@@ -1,0 +1,40 @@
+small{
+    display: none;
+}
+
+div #name-div.error,
+div #mail-div.error,
+div #message-div.error{
+    & small{
+        display: block;
+        text-align: end;
+        margin-right: 30px;
+        font-size: 17px;
+        color: #FF3838;
+        text-align: start;
+    }
+    & input{
+        background-color: rgba(255, 56, 56, 0.2);
+        border-color: #FF3838;
+        &::placeholder{
+            opacity: 0.8;
+        }
+    }
+    & textarea{
+        background-color: rgba(255, 56, 56, 0.2);
+        border-color: #FF3838;
+        &::placeholder{
+            opacity: 0.8;
+        }
+    }
+}
+
+@media(max-width:800px){
+    div #name-div.error,
+    div #mail-div.error,
+    div #message-div.error{
+        & small{
+            margin-left: 8vw;
+        }
+    }
+}

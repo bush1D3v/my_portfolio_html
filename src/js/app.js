@@ -145,24 +145,6 @@ window.addEventListener('scroll', animateOnScroll);
 
 animateOnScroll();
 
-const nameInput = document.getElementById('name')
-
-nameInput.addEventListener('input', () => {
-    const inputValue = nameInput.value
-    const cleanValue = inputValue.replace(/\d/g, '')
-    const maxCleanValue = cleanValue.replace(/[^\w\sÀ-ÖØ-öø-ÿ]|!/gi, '')
-    nameInput.value = maxCleanValue
-    nameValidation()
-})
-
-const mailInput = document.getElementById('mail')
-
-mailInput.addEventListener('input', () => {
-  const mailValue = mailInput.value.trim()
-  const cleanValue = mailValue.replace(/[^a-zA-Z0-9!#$%&'@*+/=?^_`{|}~.-]/, '')
-  mailInput.value = cleanValue
-})
-
 const navLink = document.getElementsByClassName('navbar-link')
 
 for(let link of navLink){
