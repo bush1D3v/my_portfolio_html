@@ -379,7 +379,7 @@ details{
 }
 
 .card-content .div-links a:hover{
-  color: var(--roman-silver);
+  opacity: 0.5;
 }
 
 .slider.fade-in{
