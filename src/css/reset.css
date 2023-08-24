@@ -6,6 +6,25 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  font-family: var(--ff-lato);
+}
+
+body {
+  background-color: var(--cinza-escuro);
+  color: var(--roman-silver);
+  font-size: 1.6rem;
+  line-height: 1.75;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+}
+
+body.loaded { overflow: overlay; }
+
+body.nav-active { overflow: hidden; }
+
 li { list-style: none; }
 
 a,
@@ -31,23 +50,7 @@ button {
 
 ion-icon { pointer-events: none; }
 
-html {
-  font-size: 10px;
-  scroll-behavior: smooth;
-  font-family: var(--ff-lato);
-}
-
-body {
-  background-color: var(--cinza-escuro);
-  color: var(--roman-silver);
-  font-size: 1.6rem;
-  line-height: 1.75;
-  overflow: hidden;
-}
-
-body.loaded { overflow: overlay; }
-
-body.nav-active { 
-  overflow: hidden; 
-  
+.footer,
+.header{
+  transition: background-color 0.2s ease-in;
 }
