@@ -176,8 +176,7 @@
 }
 
 /* sol lua */
-
-.sol {
+ .sunMoon {
   width: 46px;
   height: 28px;
   position: absolute;
@@ -187,8 +186,7 @@
   transition: .5s;
   border-radius: 30px;
 }
-
-.sol:before {
+ .sunMoon:before {
   position: absolute;
   content: "";
   height: 1.5em;
@@ -201,13 +199,13 @@
   transition: .5s;
 }
 
-input:checked + .sol {
+input:checked + .sunMoon {
   background-color: white;
   box-shadow: 3px -5px 8px -1px rgba(0,0,0,0.2);
   border: solid 0.5px var(--gray);
 }
 
-input:checked + .sol:before {
+input:checked + .sunMoon:before {
   transform: translateX(100%);
   box-shadow: inset 15px -4px 0px 15px #fff000;
   bottom: 15%;
@@ -307,13 +305,13 @@ input:checked + .sol:before {
   padding-block-end: 40px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 30px;
   z-index: 2;
   visibility: hidden;
   transition: 0.4s ease-in-out;
   transform: translateX(330px);
 }
-
 
 .navbar.active {
   visibility: visible;
@@ -349,6 +347,7 @@ nav { margin-block-end: auto; }
 @media(max-width:992px){
   .navbar-list{
     flex-direction: column;
+    height: 100%;
     gap: 0px;
   }
   .footer-list-title{
@@ -364,20 +363,20 @@ details{
   }
 }
 
-.card-content .div-links{
+.card-content .links-list{
   display: flex;
   width: 100%;
   justify-content: center;
   gap: 20px;
 }
 
-.card-content .div-links a{
+.card-content .links-list a{
   color: var(--white);
   text-decoration: underline;
   font-size: 20px;
 }
 
-.card-content .div-links a:hover{
+.card-content .links-list a:hover{
   opacity: 0.5;
 }
 
@@ -511,13 +510,13 @@ a.navbar-link:hover{
   border-radius: 4vw 4vw 8vw 2vw;
 }
 
-.seguireContato{
+.followContact{
 display: flex;
 justify-content:center;
 align-items: center;
 }
 
-.seguireContato > a:first-child{
+.followContact > a:first-child{
 border: 2px solid var(--cinza-claro2);
 color: var(--white);
 padding: 20px 32px;
@@ -530,7 +529,7 @@ justify-content: center;
 align-items: center;
 transition: border 300ms ease;
 }
-.seguireContato > a:first-child:hover{
+.followContact > a:first-child:hover{
  border: 2px solid var(--white);
 }
 
@@ -570,6 +569,11 @@ transition: border 300ms ease;
 /*-----------------------------------*\
   blog
 \*-----------------------------------*/
+
+.card-banner{
+  max-width: 650px;
+  max-height: 470px;
+}
 
 .blog-list {
   display: grid;
@@ -705,9 +709,10 @@ transition: border 300ms ease;
   padding: 0 10px;
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
-.github-conteudo {
+.github-content {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -728,7 +733,7 @@ transition: border 300ms ease;
   }
 }
 
-.github-conteudo:before {
+.github-content:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -766,7 +771,7 @@ transition: border 300ms ease;
   }
 }
 
-.github-conteudo:after {
+.github-content:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -778,14 +783,14 @@ transition: border 300ms ease;
   border-radius: 10px;
 }
 @media (max-width: 700px) {
-  .github-conteudo{
+  .github-content{
     font-size: 13.2px;
   }
 }
 
 @media (max-width: 376px) {
 
-    .github-conteudo{
+    .github-content{
       font-size: 11.5px;
     }
   }
@@ -796,7 +801,10 @@ transition: border 300ms ease;
  contato
 \*-----------------------------------*/
 
-.contact { padding-block-end: 0; margin-bottom: 20px;}
+.contact { 
+  padding-block-end: 0; 
+  margin-bottom: 40px;
+}
 
 .contact-card {
   background-color: var(--teste);
@@ -870,9 +878,6 @@ textarea::placeholder{
 }
 
 @media (max-width: 800px) {
-  .contact {
-    margin-bottom: 20px;
-  }
   .contact-card {
     grid-template-columns: 1fr;
     gap: 10px;
@@ -1201,7 +1206,14 @@ a.footer-link:hover{
     gap: 24px;
   }
 
-  .blog-card .card-content { padding: 32px; }
+  .blog-card .card-content { 
+    padding: 32px; 
+    justify-content: center;
+    align-items: center;
+    & h3{
+      margin-top: -10px;
+    }
+  }
 
   
 
@@ -1225,7 +1237,7 @@ a.footer-link:hover{
      
    }
  
-   nav {
+   .navbar-list {
      display: flex;
      margin-inline: auto;
    }
@@ -1237,7 +1249,6 @@ a.footer-link:hover{
      transform: translateX(-50%);
      padding-inline: 16px;
      border-radius: var(--radius-8);
-     
    }
  
    .header.active {
