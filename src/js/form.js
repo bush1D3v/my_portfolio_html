@@ -3,7 +3,7 @@ const errorClass = 'error'
 const nameInput = document.getElementById('name')
 const nameDiv = document.getElementById('name-div')
 
-function nameValidation(){
+const nameValidation = () => {
   const nameValue = nameInput.value.trim()
 
   if(nameValue.length < 6){
@@ -26,7 +26,7 @@ nameInput.addEventListener('input', () => {
 const mailInput = document.getElementById('mail')
 const mailDiv = document.getElementById('mail-div')
 
-function mailValidation(){
+const mailValidation = () => {
     const mailValue = mailInput.value.trim()
 
     if(mailValue.length < 10 || mailValue.includes('@') === false || mailValue.includes('.') === false){
@@ -48,7 +48,7 @@ mailInput.addEventListener('input', () => {
 const messageInput = document.getElementById('mensagem')
 const messageDiv = document.getElementById('message-div')
 
-function messageValidation(){
+const messageValidation = () => {
     const messageValue = messageInput.value.trim()
 
     if(messageValue.length < 10){
@@ -68,13 +68,12 @@ const form = document.querySelector('form')
 
 form.addEventListener("submit", (event) => {
     event.preventDefault()
-    nameValidation()
-    mailValidation()
-    messageValidation()
     if(nameValidation() && mailValidation() && messageValidation()){
         form.submit()
         form.reset()
     }else{
         nameValidation()
+        mailValidation()
+        messageValidation()
     }
   })
