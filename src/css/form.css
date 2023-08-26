@@ -10,19 +10,19 @@ div #message-div.error{
         text-align: end;
         margin-right: 30px;
         font-size: 17px;
-        color: #FF3838;
+        color: var(--red);
         text-align: start;
     }
     & input{
-        background-color: rgba(255, 56, 56, 0.2);
-        border-color: #FF3838;
+        background-color: var(--red_a20);
+        border-color: var(--red);
         &::placeholder{
             opacity: 0.8;
         }
     }
     & textarea{
-        background-color: rgba(255, 56, 56, 0.2);
-        border-color: #FF3838;
+        background-color: var(--red_a20);
+        border-color: var(--red);
         &::placeholder{
             opacity: 0.8;
         }

@@ -3,15 +3,17 @@
     --cinza-claro2: #2f2f2f;
     --cinza-escuro: #121212;
     --roman-silver: #a8a094;
-    --teste: #1e2021;
     --eerie-black: #17181c;
     --black: #000000;
+    --black2: #1e2021;
     --white: #ffffff;
     --white2: #d6d3cd;
     --gray: #1a1c1d;
     --gray2: #26292b;
     --white_a10: #ffffff1a;
     --white_a5: #ffffff0d;
+    --red: #FF3838;
+    --red_a20: #ff383833;
     --background: #373737;
   
     --ff-lato: 'Lato', sans-serif;
@@ -40,17 +42,4 @@
     --cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
     --cubic-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     --cubic-ease-out: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
-}
-
-body.light{
-  --black: #fff;
-  --cinza-escuro: #ffffff; 
-  --white: #000000;
-  --teste: #e7e5e5;
-  --gray2: #eeebeb;
-  --white_a10: #00000050;
-  --gray: #e6e0e0; 
-  --roman-silver: #000000;
-  --cinza-claro2: #00000050;
-  color: #000000;
 }
