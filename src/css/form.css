@@ -5,36 +5,36 @@ small{
 div #name-div.error,
 div #mail-div.error,
 div #message-div.error{
-    & small{
-        display: block;
-        text-align: end;
-        margin-right: 30px;
-        font-size: 17px;
-        color: var(--red);
-        text-align: start;
+  & small{
+    display: block;
+    text-align: end;
+    margin-right: 30px;
+    font-size: 17px;
+    color: var(--red);
+    text-align: start;
+  }
+  & input{
+    background-color: var(--red_a20);
+    border-color: var(--red);
+    &::placeholder{
+      opacity: 0.8;
     }
-    & input{
-        background-color: var(--red_a20);
-        border-color: var(--red);
-        &::placeholder{
-            opacity: 0.8;
-        }
+  }
+  & textarea{
+    background-color: var(--red_a20);
+    border-color: var(--red);
+    &::placeholder{
+      opacity: 0.8;
     }
-    & textarea{
-        background-color: var(--red_a20);
-        border-color: var(--red);
-        &::placeholder{
-            opacity: 0.8;
-        }
-    }
+  }
 }
 
 @media(max-width:800px){
-    div #name-div.error,
-    div #mail-div.error,
-    div #message-div.error{
-        & small{
-            margin-left: 8vw;
-        }
+  div #name-div.error,
+  div #mail-div.error,
+  div #message-div.error{
+    & small{
+      margin-left: 8vw;
     }
+  }
 }
