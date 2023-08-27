@@ -23,3 +23,7 @@ changeThemeBtn.addEventListener("change", () => {
         localStorage.setItem("light", 1)
     }
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.remove("light")
+})
