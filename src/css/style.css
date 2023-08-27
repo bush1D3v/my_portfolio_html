@@ -43,7 +43,7 @@ body {
       color: var(--white);
       max-width: 300px;
       height: 100vh;
-      padding: 40px 30px 80px;
+      padding: 25px 30px 85px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -413,6 +413,7 @@ body {
 .contact { 
   padding-block-end: 0; 
   margin-bottom: 40px;
+  padding-top: 0px;
   & .container{
     & .contact-card {
       background-color: var(--black2);
