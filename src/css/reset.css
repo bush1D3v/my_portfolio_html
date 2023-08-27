@@ -58,7 +58,10 @@ button {
   letter-spacing: 2px;
 }
 
-.container { padding-inline: 12px; }
+.container { 
+  padding-inline: 12px;
+  max-width: clamp(570px, 80vw, 1200px);
+}
 
 .section { padding-block: var(--section-padding); }
 

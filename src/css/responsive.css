@@ -1,6 +1,5 @@
 @media (min-width: 575px) {
   .container { 
-    max-width: 570px;
     margin-inline: auto;
   }
   
@@ -35,9 +34,7 @@
   }
 }
   
-@media (min-width: 768px) {
-  .container { max-width: 720px; }
-  
+@media (min-width: 768px) { 
   .title-wrapper {
     display: flex;
     align-items: center;
@@ -72,8 +69,6 @@
     margin-inline-start: auto;
     padding-block: 10%;
   }
-  
-  .blog-card .card-title { --fs-4: 2.7rem; }
   
   .footer .container { grid-template-columns: repeat(3, 1fr); }
 }
@@ -110,9 +105,7 @@
   }
 }
   
-@media (min-width: 992px) {
-  .container { max-width: 1200px; }
-  
+@media (min-width: 992px) {  
   .hero-content { 
     width: 55%; 
     & .hero-banner {
