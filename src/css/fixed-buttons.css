@@ -1,0 +1,52 @@
+.back-top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 99px;
+  background-color: var(--gray);
+  color: var(--white);
+  font-size: 20px;
+  padding: 11px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  visibility: hidden;
+  opacity: 0;
+  transition: var(--transition-1);
+  z-index: 2;
+  &.active{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-10px);
+    z-index: 1;
+  }
+  &:hover{
+    background-color: var(--black);
+  }
+}
+  
+.fa-linkedin-in{
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  background-color: #0077b5;
+  color: #fff;
+  font-size: 20px;
+  padding: 11px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--transition-1);
+  z-index: 1;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: -1px 1px 50px 8px #0077b5;
+  -webkit-box-shadow: -1px 1px 50px 8px #0077b5;
+  -moz-box-shadow: -1px 1px 50px 8px #0077b5;
+  transition: all ease-in-out 0.25s;
+  &:hover{
+    background-color: var(--gray);
+    box-shadow: 0px 0px 0px 0px #0077b5;
+    -webkit-box-shadow: 0px 0px 0px 0px #0077b5;
+    -moz-box-shadow: 0px 0px 0px 0px #0077b5;
+  }
+}

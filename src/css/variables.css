@@ -17,13 +17,13 @@
   --ff-lato: 'Lato', sans-serif;
   
   --fs-2: 4.5rem;
-  --fs-3: 3.8rem;
+  --fs-3: clamp(3.45rem, 7.5vw, 7rem);
   --fs-4: 2.4rem;
   --fs-5: 2rem;
   --fs-8: 1.2rem;
     
-  --fw-800: 800;
   --fw-700: 700;
+  --fw-800: 800;
   
   --section-padding: 50px;
   

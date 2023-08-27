@@ -8,7 +8,7 @@ body.light{
   --gray: #e6e0e0; 
   --roman-silver: #000000;
   --cinza-claro2: #00000050;
-  color: #000000;
+  color: #252525;
 }
 
 .switch {
@@ -28,14 +28,14 @@ body.light{
     &:checked + .sunMoon:before {
       transform: translateX(100%);
       box-shadow: inset 15px -4px 0px 15px var(--yellow);
-      bottom: 15%;
+      bottom: 18%;
     }
   }
   & .sunMoon {
-    width: 46px;
+    width: 48px;
     height: 28px;
     position: absolute;
-    top: 40%;
+    top: 30%;
     cursor: pointer;
     background-color: var(--background);
     transition: .5s;
@@ -47,7 +47,7 @@ body.light{
       width: 1.4em;
       border-radius: 50%;
       left: 15%;
-      bottom: 17%;
+      bottom: 20%;
       box-shadow: inset 8px -4px 0px 0px var(--yellow);
       background: var(--background);
       transition: .5s;

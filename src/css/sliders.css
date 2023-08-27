@@ -3,6 +3,15 @@
   --item-gap: 12px;
   margin-block-start: 60px;
   overflow: hidden;
+  &.fade-in{
+    position: relative;
+    & .arrow-animate{
+      display: none;
+      position: absolute;
+      right: 20px;
+      bottom: 5vh;
+    }
+  }
   & .slider-container {
     position: relative;
     display: flex;
