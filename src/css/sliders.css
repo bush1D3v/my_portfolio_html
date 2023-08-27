@@ -35,30 +35,29 @@
   margin-block-start: 40px;
   & .slider-control {
     position: relative;
-    max-width: max-content;
     padding-block: 8px;
     &.prev{
       & .arrow{
         left: 0;
-        border-width: 0 0 1px 1px;
+        border-width: 0 0 2px 2px;
       }
     }
     &.next{
       & .arrow{
         right: 0;
-        border-width: 1px 1px 0 0;
+        border-width: 2px 2px 0 0;
       }
     }
     & .line{
       width: 30px;
-      height: 1px;
+      height: 2px;
       background-color: var(--white);
     }
     & .arrow {
       position: absolute;
       transform: translateY(-60%) rotate(45deg);
-      width: 10px;
-      height: 10px;
+      width: 15px;
+      height: 15px;
       border-style: solid;
       border-color: var(--white);
     }
