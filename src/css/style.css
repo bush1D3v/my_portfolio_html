@@ -43,7 +43,7 @@ body {
       color: var(--white);
       max-width: 300px;
       height: 100vh;
-      padding: 25px 30px 85px;
+      padding: 25px 30px 90px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
