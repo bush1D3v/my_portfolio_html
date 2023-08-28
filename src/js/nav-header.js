@@ -41,6 +41,6 @@ const navLink = document.getElementsByClassName('navbar-link')
 
 for(let link of navLink){
   link.addEventListener('click', () => {
-    toggleNav()
+    closeNav()
   })
 }
