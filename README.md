@@ -24,14 +24,14 @@ Um portfólio profissional completo, possuindo **Cabeçalho** indexável (que pa
 ## Seções do Portfólio
 
 - ### Cabeçalho
-![cabecalho](https://github.com/bush1D3v/my_portfolio/assets/133554156/937beb0c-4ead-483e-9bc3-aafd3eb01fc3)
+![cabecalho](https://github.com/bush1D3v/my_portfolio/assets/133554156/8af5a008-4487-47e9-9da3-9a1646faffb9)
 
 > <p>Um <strong>Cabeçalho</strong> possuindo a <strong>Logo</strong> do porfólio à esquerda, uma <strong>lista de indexadores</strong> que levam às diversas seções do portfólio ao centro, e à direita um <strong>botão</strong> que serve para ativar/desativar o modo-claro, em que uma animação de <strong>transformação de imagem</strong>, que dependendo do tema que estiver o site, a imagem se adaptará (sendo uma lua para o escuro e um sol para o claro).</p>
 
 ##
 
 - ### Página Principal
-![pagina-principal](https://github.com/bush1D3v/my_portfolio/assets/133554156/aea1b7de-7d90-4005-98f5-536258b8db70)
+![pagina-principal](https://github.com/bush1D3v/my_portfolio/assets/133554156/a602c29c-836e-40ef-ac04-d455ca2e4330)
 
 > <p>Página principal contendo exibição de <strong>todo o cabeçalho</strong>. Logo abaixo do mesmo possui uma <strong>seção</strong>, onde à direita temos a <strong>foto de perfil</strong> do desenvolvedor do portfólio, e a direita um pequeno <strong>parágrafo</strong>, possuindo um <strong>título</strong> sendo o nome, <strong>sub-título</strong> sendo o cargo, e um texto sendo um <strong>resumo</strong> do mesmo. <br><br> Abaixo deste parágrafo existem <strong>dois botões</strong>, onde o da direita leva o usuário à uma nova aba, em que nela é apresentado o <strong>currículo</strong> do desenvolvedor, e o botão da direita leva o usuário ao app do <strong>Gmail</strong>, onde o mesmo estará com a aba de escrever mensagem aberta, tendo já o destinatário sendo o e-mail do desenvolvedor.</p>
 
@@ -45,14 +45,14 @@ Um portfólio profissional completo, possuindo **Cabeçalho** indexável (que pa
 ##
 
 - ### Cursos e Certificações
-![cursos-certificacoes](https://github.com/bush1D3v/my_portfolio/assets/133554156/11e82738-e0ff-412b-9f47-a82d621f7bb7)
+![cursos-certificacoes](https://github.com/bush1D3v/my_portfolio/assets/133554156/aa82bc0e-8fe6-4998-9b80-1fdba3b04c10)
 
 > <p>Apresentada abaixo da seção <strong>"Minha Stack"</strong>, esta nova parte do portfólio tem a função de exibir <strong>descritivamente</strong>, <strong>cada curso</strong> realizado pelo desenvolvedor. Cada divisão de curso possui uma <strong>imagem</strong> que demonstra a página inicial dos mesmos, possuindo separadamente uma <strong>seção textual</strong>, em que nela temos o <strong>nome</strong>, <strong>descrição</strong> e <strong>grade curricular</strong> do curso. <br><br> Além disso, abaixo desta divisão possui um <strong>botão</strong>, que dependendo do decorrer do curso, ele exibirá os <strong>certificados conquistados</strong> pelo desenvolvedor ao longo do mesmo, abrindo uma nova aba com um arquivo <strong>PDF completo</strong>.</p>
 
 ##
 
 - ### Principais Projetos
-https://github.com/bush1D3v/my_portfolio/assets/133554156/fbc22c6f-d828-4483-ba9d-9e82e8e167be
+![principais-projetos](https://github.com/bush1D3v/my_portfolio/assets/133554156/8059f3ea-35f4-468b-b65a-462efac4f8af)
 
 > <p>Possuindo sua exibição após a seção <strong>"Cursos e Certificações"</strong>, a área de <strong>Principais Projetos</strong> também possui um conteúdo <strong>rolável</strong>, com as setas abaixo que direcionam o conteúdo para os lados. Cada item exibido é a <strong>imagem da página inicial de um projeto</strong>, que ao <strong>passar o mouse por cima</strong> do mesmo, faz-se uma <strong>animação</strong> que aplica um efeito de <strong>diminuição de opacidade</strong>, e exibe-se uma <strong>área textual</strong>. <br><br> Essa área possui um <strong>título</strong> sendo o nome do projeto, um <strong>subtítulo</strong> sendo o resumo do projeto, e uma área com dois <strong>links clicáveis</strong>, em que o da esquerda direciona o usuário à uma nova aba que é o <strong>site do projeto</strong>, e o da direita leva o usuário ao <strong>repositório do mesmo</strong>. <br><br> Essa seção possui uma <strong>divisão</strong> que é exibida apenas em dispositivos móveis, em que nela tem-se uma <strong>seta animada</strong> direcionando o usuário à imagem, e um texto escrito <strong>"Clique Aqui!"</strong>, induzindo o usuário a clicar na mesma imagem, para que assim, seja exibida a <strong>área textual escondida.</strong></p>
 
@@ -71,7 +71,7 @@ https://github.com/bush1D3v/my_portfolio/assets/133554156/fbc22c6f-d828-4483-ba9
 > <p>Ao final do portfólio temos o <strong>Rodapé</strong>, em que possuimos <strong>todas as formas de se comunicar com o desenvolvedor</strong>. À esquerda temos o <strong>e-mail</strong> clicável, que direciona o usuário ao <strong>envio de um e-mail</strong> para o desenvolvedor, no centro temos a <strong>informação geográfica</strong> do mesmo, e na direita existem <strong>cinco botões indexáveis</strong>, que levam às <strong>seguintes redes sequencialmente</strong>: GitHub, Twitter, Instagram, Linkedin e Whatsapp.</p>
 
 ## Modo Claro
-https://github.com/bush1D3v/my_portfolio/assets/133554156/44fd010a-5ff2-411f-bee9-2e732f270341
+![modo-claro](https://github.com/bush1D3v/my_portfolio/assets/133554156/cd52c6c2-9b98-430b-bbd0-c00dc8d69a35)
 
 > <p>O Desenvolvimento do modo claro <strong>sempre foi</strong> uma grande vontade minha como <strong>Desenvolvedor de Software</strong>. Sempre achei <strong>incrível</strong> esse tipo de design, que se adapta <strong>independentemente do tema</strong> preferível do usuário, além de ser algo visualmente muito <strong>mágico</strong> para mim. <br><br> Pensar que, com apenas <strong>doze linhas de código</strong> eu faria um modo-claro completo ao meu portfólio, era algo <strong>inimaginável</strong> no início da minha <strong>carreira como desenvolvedor</strong>. Esse meu <strong>desejo</strong> de criar um design adaptável me permitiu treinar o <strong>uso de variáveis</strong> no código, <strong>padronizando</strong> a utilização de cores no corpo da página, e <strong>facilitando muito</strong> a criação do tema.</p>
 
