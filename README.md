@@ -1,7 +1,7 @@
 # Portfólio de Victor Navarro
 ![logo](https://github.com/bush1D3v/my_portfolio/assets/133554156/854a2df5-fc37-40d1-92fb-742f8ab2ff77)
 
-Tabela de conteúdos
+Tabela de Conteúdos
 =================
    * [Sobre](#sobre)
    * [Tabela de Seções](#seções-do-portfólio)
@@ -15,6 +15,7 @@ Tabela de conteúdos
    * [Modo Claro](#modo-claro)
    * [Tecnologias](#tecnologias-utilizadas)
    * [Desafios](#desafios-durante-o-coding)
+   * [Mobile First](#mobile-first)
    * [Menu Retrátil](#menu-retrátil)
 
 ## Sobre
@@ -25,54 +26,69 @@ Um portfólio profissional completo, possuindo **Cabeçalho** indexável (que pa
 - ### Cabeçalho
 ![cabecalho](https://github.com/bush1D3v/my_portfolio/assets/133554156/937beb0c-4ead-483e-9bc3-aafd3eb01fc3)
 
-> <p>Um cabeçalho com <strong>logo do site</strong> à esquerda, e no lado direito um <strong>menu com botões de indexação para as respectivas seções do site</strong>, possuindo também sua versão de <strong>menu-hamburguer</strong> para dispositivos móveis.</p>
+> <p>Um <strong>Cabeçalho</strong> possuindo a <strong>Logo</strong> do porfólio à esquerda, uma <strong>lista de indexadores</strong> que levam às diversas seções do portfólio ao centro, e à direita um <strong>botão</strong> que serve para ativar/desativar o modo-claro, em que uma animação de <strong>transformação de imagem</strong>, que dependendo do tema que estiver o site, a imagem se adaptará (sendo uma lua para o escuro e um sol para o claro).</p>
 
 ##
 
 - ### Página Principal
 ![pagina-principal](https://github.com/bush1D3v/my_portfolio/assets/133554156/aea1b7de-7d90-4005-98f5-536258b8db70)
 
-> <p>Página principal contendo exibição de <strong>todo o cabeçalho</strong>. Logo abaixo e à direita, contém um <strong>texto introdutório ao conteúdo da página</strong>, em que há um <strong>título em destaque e parágrafos</strong>, juntamente de um botão escrito "Começar". Além disso, existe uma <strong>imagem à direita</strong> que é removida no desing responsivo para dispositivos móveis, e ao final da página, tem-se <strong>palavras que são divididas por uma imagem de halter</strong>, que ficam <strong>atravessando toda a página horizontalmente</strong> e apresentando <strong>características</strong> do seu conteúdo.</p>
+> <p>Página principal contendo exibição de <strong>todo o cabeçalho</strong>. Logo abaixo do mesmo possui uma <strong>seção</strong>, onde à direita temos a <strong>foto de perfil</strong> do desenvolvedor do portfólio, e a direita um pequeno <strong>parágrafo</strong>, possuindo um <strong>título</strong> sendo o nome, <strong>sub-título</strong> sendo o cargo, e um texto sendo um <strong>resumo</strong> do mesmo. <br><br> Abaixo deste parágrafo existem <strong>dois botões</strong>, onde o da direita leva o usuário à uma nova aba, em que nela é apresentado o <strong>currículo</strong> do desenvolvedor, e o botão da direita leva o usuário ao app do <strong>Gmail</strong>, onde o mesmo estará com a aba de escrever mensagem aberta, tendo já o destinatário sendo o e-mail do desenvolvedor.</p>
 
 ##
 
 - ### Minha Stack
 ![minha-stack](https://github.com/bush1D3v/my_portfolio/assets/133554156/0483499b-fdca-4b06-aed3-20a56baa76a4)
 
-> <p>Essa seção tem como objetivo se aprofundar nos <strong>detalhes</strong> e <strong>diferenciais</strong> dos serviços prestados. Possuindo um total de <strong>quatro tópicos</strong> abordados, onde cada um deles, em seu espaço próprio, possui uma <strong>imagem, título, parágrafo e botão de indexação</strong>, essa seção possui seu <strong>título em destaque</strong> no topo da mesma.</p>
+> <p>Essa seção é apresentada logo abaixo da seção <strong>"Página Principal"</strong>, e ela é uma seção com <strong>conteúdo rolável</strong>, que exibe toda a <strong>stack</strong> do desenvolvedor. Contém <strong>duas setas</strong> abaixo da divisão de stack, em que as mesmas tem a função de <strong>direcionar a seção</strong> para a direita ou esquerda, demonstrando com uma <strong>animação suave</strong>, cada tecnologia <strong>dominada</strong> pelo desenvolvedor e seus conceitos.</p>
 
 ##
 
 - ### Cursos e Certificações
 ![cursos-certificacoes](https://github.com/bush1D3v/my_portfolio/assets/133554156/11e82738-e0ff-412b-9f47-a82d621f7bb7)
 
-> <p>A seção de preços possui o objetivo de ser <strong>mais direta</strong> com o cliente. Demonstrando seus <strong>planos diversos</strong> e <strong>preços variados</strong>, cada seção ilustra <strong>perfeitamente</strong> as informações necessárias para que o cliente possa <strong>decidir qual produto adquirir</strong>, além de possuir uma recomendação, em que se tem o plano <strong>mais comprado</strong> pelos consumidores.</p>
+> <p>Apresentada abaixo da seção <strong>"Minha Stack"</strong>, esta nova parte do portfólio tem a função de exibir <strong>descritivamente</strong>, <strong>cada curso</strong> realizado pelo desenvolvedor. Cada divisão de curso possui uma <strong>imagem</strong> que demonstra a página inicial dos mesmos, possuindo separadamente uma <strong>seção textual</strong>, em que nela temos o <strong>nome</strong>, <strong>descrição</strong> e <strong>grade curricular</strong> do curso. <br><br> Além disso, abaixo desta divisão possui um <strong>botão</strong>, que dependendo do decorrer do curso, ele exibirá os <strong>certificados conquistados</strong> pelo desenvolvedor ao longo do mesmo, abrindo uma nova aba com um arquivo <strong>PDF completo</strong>.</p>
 
 ##
 
 - ### Principais Projetos
 https://github.com/bush1D3v/my_portfolio/assets/133554156/fbc22c6f-d828-4483-ba9d-9e82e8e167be
 
-> <p>Essa seção é dedicada à demonstrar <strong>dados do serviço ao consumidor</strong>. Número de <strong>unidades da academia</strong>, <strong>alunos matriculados</strong> e <strong>profissonais altamente qualificados</strong> são as informações pessadas através dos numerais, além de iniciar-se com um <strong>texto</strong>, que tem como objetivo <strong>chamar atenção</strong> do consumidor e trazer a sí o <strong>sentimento de comunidade.</strong> Além de tudo isso, a seção possui uma imagem à esquerda, que é removida no design responsivo para dispositivos móveis.</p>
+> <p>Possuindo sua exibição após a seção <strong>"Cursos e Certificações"</strong>, a área de <strong>Principais Projetos</strong> também possui um conteúdo <strong>rolável</strong>, com as setas abaixo que direcionam o conteúdo para os lados. Cada item exibido é a <strong>imagem da página inicial de um projeto</strong>, que ao <strong>passar o mouse por cima</strong> do mesmo, faz-se uma <strong>animação</strong> que aplica um efeito de <strong>diminuição de opacidade</strong>, e exibe-se uma <strong>área textual</strong>. <br><br> Essa área possui um <strong>título</strong> sendo o nome do projeto, um <strong>subtítulo</strong> sendo o resumo do projeto, e uma área com dois <strong>links clicáveis</strong>, em que o da esquerda direciona o usuário à uma nova aba que é o <strong>site do projeto</strong>, e o da direita leva o usuário ao <strong>repositório do mesmo</strong>. <br><br> Essa seção possui uma <strong>divisão</strong> que é exibida apenas em dispositivos móveis, em que nela tem-se uma <strong>seta animada</strong> direcionando o usuário à imagem, e um texto escrito <strong>"Clique Aqui!"</strong>, induzindo o usuário a clicar na mesma imagem, para que assim, seja exibida a <strong>área textual escondida.</strong></p>
 
 ##
 
 - ### Formulário
 ![formulario](https://github.com/bush1D3v/my_portfolio/assets/133554156/a58afdfa-deac-47a7-acb7-5f01fe37706f)
 
-> <p>A seção de registro é a área onde o consumidor <strong>envia suas informações</strong> (nome e telefone) ao banco de dados da empresa, em que os mesmos são enviados em <strong>formato JSON</strong>. Possuindo uma forte <strong>validação</strong>, <strong>análise</strong> e <strong>tratamento de dados</strong>, esse formulário <strong>garante</strong> ao banco de dados que apenas informações <strong>válidas</strong> sejam enviadas. Além de tudo isso, essa seção possui uma imagem no lado direito, que é removida no design responsivo para dispositivos móveis.</p>
+> <p>Seção posicionada logo acima do <strong>"Rodapé"</strong>, ela possui a função do usuário <strong>enviar uma mensagem</strong> diretamente ao desenvolvedor. O formulário possui <strong>três seções</strong>, onde as informações concedidas nelas são: <strong>nome e email</strong> do usuário, juntamente da <strong>mensagem</strong> que deseja enviar ao desenvolvedor. <br><br> Essa mensagem é enviada para um <strong>"banco de dados"</strong> local, criado apartir do site <strong>Formspree</strong>, que armazena cada envio feito através do portfólio, e <strong>notifica no Gmail</strong> do desenvolvedor quando um novo envio é realizado. <br><br> Esse formulário possui <strong>validações</strong> em cada seção, impedindo <strong>envios equivocados</strong>, <strong>"cliques errados"</strong> e envio de <strong>informações inválidas</strong>. Caso algo esteja <strong>escrito incorretamente</strong>, é <strong>exibido visualmente</strong> que a seção precisa ter um valor válido, <strong>colorindo as seções de vermelho</strong>, e exibindo uma <strong>mensagem personalizada</strong> relacionada a seção.</p>
 
 ##
 
 - ### Rodapé
 ![rodape](https://github.com/bush1D3v/my_portfolio/assets/133554156/eadc3a9e-5351-49d8-95ea-457b5d63e48c)
 
-> <p>Ao final da página temos o rodapé. Simples e com um design <strong>"clean"</strong>, ele possui apenas as <strong>informações do desenvolvedor</strong> que criou a página (minhas haha), sendo as redes sociais como <strong>Linkedin</strong> e <strong>Discord</strong>, além de possuir também <strong>o nome do mesmo</strong>, juntamente do símbolo de <strong>copyright</strong> (&copy;). Essa seção, no caso de ser um projeto <strong>feito para uma empresa</strong>, pode-se ter suas informações <strong>recolocadas</strong>, como <strong>e-mail</strong> e <strong>número de celular para contato</strong>, <strong>endereço</strong>, <strong>área de FAQ</strong>, dentre <strong>outras informações da mesma.</strong></p>
+> <p>Ao final do portfólio temos o <strong>Rodapé</strong>, em que possuimos <strong>todas as formas de se comunicar com o desenvolvedor</strong>. À esquerda temos o <strong>e-mail</strong> clicável, que direciona o usuário ao <strong>envio de um e-mail</strong> para o desenvolvedor, no centro temos a <strong>informação geográfica</strong> do mesmo, e na direita existem <strong>cinco botões indexáveis</strong>, que levam às <strong>seguintes redes sequencialmente</strong>: GitHub, Twitter, Instagram, Linkedin e Whatsapp.</p>
 
 ## Modo Claro
 https://github.com/bush1D3v/my_portfolio/assets/133554156/44fd010a-5ff2-411f-bee9-2e732f270341
 
-> <p>Lorem</p>
+> <p>O Desenvolvimento do modo claro <strong>sempre foi</strong> uma grande vontade minha como <strong>Desenvolvedor de Software</strong>. Sempre achei <strong>incrível</strong> esse tipo de design, que se adapta <strong>independentemente do tema</strong> preferível do usuário, além de ser algo visualmente muito <strong>mágico</strong> para mim. <br><br> Pensar que, com apenas <strong>doze linhas de código</strong> eu faria um modo-claro completo ao meu portfólio, era algo <strong>inimaginável</strong> no início da minha <strong>carreira como desenvolvedor</strong>. Esse meu <strong>desejo</strong> de criar um design adaptável me permitiu treinar o <strong>uso de variáveis</strong> no código, <strong>padronizando</strong> a utilização de cores no corpo da página, e <strong>facilitando muito</strong> a criação do tema.</p>
+
+```CSS
+body.light{
+  --roman-silver: #000000;
+  --white: #000000;
+  --white_a10: #00000050;
+  --light-gray: #00000050;
+  --gray: #e6e0e0; 
+  --gray2: #eeebeb;
+  --dark-gray: #ffffff; 
+  --black: #ffffff;
+  --black2: #e7e5e5;
+  color: #252525;
+}
+```
 
 ## Tecnologias Utilizadas
 
@@ -84,34 +100,14 @@ https://github.com/bush1D3v/my_portfolio/assets/133554156/44fd010a-5ff2-411f-bee
 
 ## Desafios Durante o Coding
 
-Esse projeto foi, de fato, o<strong> mais desafiador de toda minha carreira como desenvolvedor</strong>.<br>
-Aparição dos elementos ao scrollar, utilização de expressões regulares, validação de formulário, envio de arquivo JSON, propriedades CSS desconhecidas... tudo isso escrito anteriormente foi apenas <strong>ALGUNS</strong> dos desafios que eu enfrentei nessas três semanas de <strong>INTENSA produção</strong>.<br><br>
-Admito que, com todo o <strong>esforço</strong> e <strong>tempo dedicado ao projeto</strong>, me sinto muito realizado de poder dizer que o desenvolvi da forma <strong>EXATA como eu desejava.</strong><br>
-O "bug" que posso citar como o mais complexo de resolver, foi o que criava um <strong>scroll horizontal no momento de carregamento da página</strong>. Admito ter passado cerca de <strong>duas horas</strong> para descobrir que eu tinha que colocar apenas alguns `overflow-x: hidden` em um conjunto <strong>ESPECÍFICO de seções</strong>, e caso esteja se perguntando: <strong>sim, eu descobri isso adicionando a propriedade em CADA ELEMENTO ESTILIZADO.</strong><br><br>
-Posso dizer que evolui <strong>muito com este projeto</strong>, desde melhorar minha <strong>percepção</strong> e <strong>programação</strong> no posicionamento de elementos e utilização do flex para criar um <strong>design responsivo mais automático</strong>, até a <strong>utilização de expressões regulares</strong>, criação de estilização utilizando <strong>pseudo-classes</strong> e <strong>pseudo-elementos</strong>, e uma evolução <strong>GIGANTESCA</strong> na utilização do `&`, como forma de codificar estilos dentro do CSS utilizando como forma de organização o <strong>conceito "tag pai-tag filho"</strong>.<br><br>
+<p>Esse coding foi o <strong>mais desafiador da minha carreira</strong>. Além de desenvolver um design por <strong>conta própria</strong>, tive que evoluir muitas <strong>habilidades</strong> e aprender muitos <strong>conceitos</strong> que ainda não conhecia. Desenvolver um menu-hambúrguer mais <strong>interativo e agradável</strong>, seções com tamanhos limitados tornando o <strong>design mais simplista</strong>, botões fixos com <strong>funções e designs únicos</strong>, entre muitas outras coisas. <br><br> A divisão de <strong>pastas</strong> e <strong>subpastas</strong> sempre foi algo <strong>muito satisfatório</strong> para mim. Poder saber <strong>exatamente</strong> onde tenho que mexer é <strong>essencial</strong>, tanto durante o <strong>processo de coding</strong> quanto de <strong>refatoração</strong>, e até mesmo caso eu queira adicionar algumas <strong>atualizações futuramente</strong>. <br><br> A criação de <strong>seções roláveis</strong> foi a parte mais <strong>complicada</strong> para mim durante o desenvolvimento deste portfólio, o que me levou ao <strong>aprofundamento dos conceitos de JavaScript</strong>, e também me fez <strong>evoluir</strong> na forma como <strong>busco as informações</strong> que preciso para cada situação adversa aparente. <br><br> Por fim, o que mais <strong>dificultou</strong> o meu desenvolvimento foi a forma como <strong>organizaria meu tempo</strong>. Após adquirir a <strong>bolsa do Ifood</strong>, meus dias úteis da semana foram <strong>completamente destinados ao mesmo</strong>, sobrando apenas os finais de semana para o portfólio. Após as semanas de adaptação se passarem, pude <strong>melhorar demais minha organização</strong>, tornando assim, o desenvolvimento completo do meu portfólio <strong>possível</strong>.</p>
+
+## Mobile First
+
+> <p>"Mobile First é um conceito aplicado em projetos web, onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis." <br><br> Esse conceito foi <strong>utilizado por mim</strong> durante o processo de desenvolvimento desse portfólio, o que tornou esse código <strong>ainda mais desafiador</strong>. Como minha <strong>primeira utilização deste conceito</strong>, pude <strong>experimentar</strong> essa nova forma de se construir um site, além de criar <strong>media-queries</strong> diferentes do meu convencional. <br><br> Gosto sempre de sair da minha <strong>zona de conforto</strong>, e essa foi a melhor forma que encontrei de fazer isso <strong>durante o processo de criação do meu portfólio</strong>. <strong>Aprendi</strong> novas estilizações importantes, como a utilização do <i>:focus-within</i>, <strong>aprendi também</strong> a utilização dos seletores <i>></i> e <i>+</i>, além de <strong>evoluir muito</strong> nas estilizações com <i>clamp()</i>, <i>media-queries</i> e <i>:before/:after</i>.</p>
 
 ## Menu Retrátil:
 
-```CSS
-.secao-de-servicos{
-    & .informacoes-gerais{
-        text-align: center;
-        margin-top: 10px;
-        & .introducao{
-            display: flex;
-            flex-direction: column;
-            gap: 35px;
-            & h2{
-                line-height: 70px;
-                & span{
-                    display: block;
-                }
-            }
-            & p{
-                padding: 0 7%;
-            }
-        }
-        & dados{...}
-    }
-}
-```
+![mobile-desktop](https://github.com/bush1D3v/my_portfolio/assets/133554156/fbe86227-52b1-42f2-a846-4c744683ad14)
+
+> <p>Essa imagem tem o propósito de mostrar <strong>como é complicado de se criar layouts para dispositivos móveis</strong>. Tanto no <strong>MobileView</strong>, <strong>DevTools</strong> e no <strong>Responsive Viewer</strong>, o layout do menu era demonstrado como no <strong>print da direita</strong>, enquanto em um <strong>dispositivo móvel real</strong>, o menu era exibido como no <strong>print da esquerda</strong>. <br><br> Mesmo com essas advercidades que poderiam resultar em um <strong>falso resultado positivo</strong> no design do layout, pude através de <strong>alguns cálculos</strong>, estabelecer a <strong>centralização</strong> desse menu, trazendo assim, um design mais <strong>confortável</strong> para o mesmo.</p>
