@@ -35,6 +35,10 @@ body {
         opacity: 0.5;
       }
     }
+    & img.logo{
+      width: 70px;
+      cursor: pointer;
+    }
     & .navbar {
       position: fixed;
       top: 0;

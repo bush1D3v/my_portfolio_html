@@ -9,6 +9,9 @@ body.light{
   --black: #ffffff;
   --black2: #e7e5e5;
   color: #252525;
+  & .logo{
+    filter: brightness(-100%);
+  }
 }
 
 .switch {
