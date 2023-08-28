@@ -68,7 +68,7 @@ https://github.com/bush1D3v/my_portfolio/assets/133554156/fbc22c6f-d828-4483-ba9
 - ### Rodapé
 ![rodape](https://github.com/bush1D3v/my_portfolio/assets/133554156/eadc3a9e-5351-49d8-95ea-457b5d63e48c)
 
-> <p>Ao final do portfólio temos o <strong>Rodapé</strong>, em que nele possuimos <strong>todas as formas de se comunicar com o desenvolvedor</strong>. À esquerda temos o <strong>e-mail</strong> clicável, que direciona o usuário ao <strong>envio de um e-mail</strong> para o desenvolvedor, no centro temos a <strong>informação geográfica</strong> do mesmo, e na direita existem <strong>cinco botões indexáveis</strong>, que levam às <strong>seguintes redes sequencialmente</strong>: GitHub, Twitter, Instagram, Linkedin e Whatsapp.</p>
+> <p>Ao final do portfólio temos o <strong>Rodapé</strong>, em que possuimos <strong>todas as formas de se comunicar com o desenvolvedor</strong>. À esquerda temos o <strong>e-mail</strong> clicável, que direciona o usuário ao <strong>envio de um e-mail</strong> para o desenvolvedor, no centro temos a <strong>informação geográfica</strong> do mesmo, e na direita existem <strong>cinco botões indexáveis</strong>, que levam às <strong>seguintes redes sequencialmente</strong>: GitHub, Twitter, Instagram, Linkedin e Whatsapp.</p>
 
 ## Modo Claro
 https://github.com/bush1D3v/my_portfolio/assets/133554156/44fd010a-5ff2-411f-bee9-2e732f270341
