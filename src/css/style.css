@@ -160,7 +160,6 @@ body {
           padding: 20px 32px;
           border-radius: 15px;
           text-transform: uppercase;
-         
           display: flex;
           justify-content: center;
           align-items: center;
@@ -351,9 +350,6 @@ body {
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
     display: block;
     font-size: clamp(1.2rem, 2vw, 2rem);
     transition: all 0.2s ease-in-out;
