@@ -109,6 +109,6 @@ button {
   align-items: center;
   transition: border 300ms ease;
   &:hover{
-    border: 2px solid var(--cinza-claro2);
+    border: 2px solid var(--light-gray);
   }
 }

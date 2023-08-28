@@ -1,13 +1,13 @@
 body.light{
-  --black: #fff;
-  --cinza-escuro: #ffffff; 
-  --white: #000000;
-  --black2: #e7e5e5;
-  --gray2: #eeebeb;
-  --white_a10: #00000050;
-  --gray: #e6e0e0; 
   --roman-silver: #000000;
-  --cinza-claro2: #00000050;
+  --white: #000000;
+  --white_a10: #00000050;
+  --light-gray: #00000050;
+  --gray: #e6e0e0; 
+  --gray2: #eeebeb;
+  --dark-gray: #ffffff; 
+  --black: #ffffff;
+  --black2: #e7e5e5;
   color: #252525;
 }
 

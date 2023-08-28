@@ -1,14 +1,14 @@
 :root {
-  --cinza-claro2: #2f2f2f;
-  --cinza-escuro: #121212;
   --roman-silver: #a8a094;
+  --white: #ffffff;
+  --white_a5: #ffffff0d;
+  --white_a10: #ffffff1a;
+  --light-gray: #2f2f2f;
+  --dark-gray: #121212;
   --black: #000000;
   --black2: #1e2021;
-  --white: #ffffff;
   --gray: #1a1c1d;
   --gray2: #26292b;
-  --white_a10: #ffffff1a;
-  --white_a5: #ffffff0d;
   --red: #FF3838;
   --red_a20: #ff383833;
   --yellow: #fff000;

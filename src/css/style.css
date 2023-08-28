@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: var(--cinza-escuro);
+  background-color: var(--dark-gray);
   color: var(--roman-silver);
   font-size: 1.6rem;
   line-height: 1.75;
@@ -39,7 +39,7 @@ body {
       position: fixed;
       top: 0;
       right: -5px;
-      background-color: var(--cinza-escuro);
+      background-color: var(--dark-gray);
       color: var(--white);
       max-width: 300px;
       height: 100vh;
@@ -60,7 +60,7 @@ body {
           justify-content: space-between;
           align-items: center;
           & .nav-close-btn {
-            background-color: var(--cinza-claro2);
+            background-color: var(--light-gray);
             color: var(--white);
             font-size: 2rem;
             padding: 6px;
@@ -155,7 +155,7 @@ body {
         justify-content:center;
         align-items: center;
         & > a:first-child{
-          border: 2px solid var(--cinza-claro2);
+          border: 2px solid var(--light-gray);
           color: var(--white);
           padding: 20px 32px;
           border-radius: 15px;
@@ -477,7 +477,7 @@ body {
           transition: var(--transition-1);
           will-change: transform;
           &:is(:hover, :focus-visible) {
-            border: 2px solid var(--cinza-claro2);
+            border: 2px solid var(--light-gray);
           }
         }
       }

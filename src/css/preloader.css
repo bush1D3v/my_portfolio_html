@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   height: 100vh;
-  background-color: var(--cinza-escuro);
+  background-color: var(--dark-gray);
   z-index: 10;
   display: grid;
   place-items: center;
@@ -18,7 +18,7 @@
   & .circle{
     width: 60px;
     height: 60px;
-    border: 2px solid var(--cinza-claro2);
+    border: 2px solid var(--light-gray);
     border-top-color: var(--white);
     border-radius: var(--radius-circle);
     animation: rotate360 1s linear infinite;
