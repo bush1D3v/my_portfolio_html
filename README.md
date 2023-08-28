@@ -108,6 +108,6 @@ body.light{
 
 ## Menu Retrátil:
 
-![mobile-desktop](https://github.com/bush1D3v/my_portfolio/assets/133554156/fbe86227-52b1-42f2-a846-4c744683ad14)
+![mobile-desktop](https://github.com/bush1D3v/my_portfolio/assets/133554156/e8f58033-0222-4daa-b110-adc884f8a9cb)
 
 > <p>Essa imagem tem o propósito de mostrar <strong>como é complicado de se criar layouts para dispositivos móveis</strong>. Tanto no <strong>MobileView</strong>, <strong>DevTools</strong> e no <strong>Responsive Viewer</strong>, o layout do menu era demonstrado como no <strong>print da direita</strong>, enquanto em um <strong>dispositivo móvel real</strong>, o menu era exibido como no <strong>print da esquerda</strong>. <br><br> Mesmo com essas advercidades que poderiam resultar em um <strong>falso resultado positivo</strong> no design do layout, pude através de <strong>alguns cálculos</strong>, estabelecer a <strong>centralização</strong> desse menu, trazendo assim, um design mais <strong>confortável</strong> para o mesmo.</p>
