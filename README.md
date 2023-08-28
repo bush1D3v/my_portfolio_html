@@ -1,5 +1,5 @@
 # Portfólio de Victor Navarro
-![logo](https://github.com/bush1D3v/my_portfolio/assets/133554156/854a2df5-fc37-40d1-92fb-742f8ab2ff77)
+![logo](https://github.com/bush1D3v/my_portfolio/assets/133554156/3ae60431-3c15-4a9b-b6da-e224efca21ed)
 
 Tabela de Conteúdos
 =================
