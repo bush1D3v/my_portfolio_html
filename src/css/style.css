@@ -36,7 +36,7 @@ body {
       }
     }
     & img.logo{
-      width: 70px;
+      width: 50px;
       cursor: pointer;
     }
     & .navbar {
