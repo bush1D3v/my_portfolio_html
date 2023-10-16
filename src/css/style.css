@@ -70,8 +70,8 @@ body {
             padding: 6px;
             border-radius: var(--radius-circle);
             transition: var(--transition-1);
-            & ion-icon { 
-              --ionicon-stroke-width: 50px; 
+            & ion-icon {
+              --ionicon-stroke-width: 50px;
             }
           }
         }
@@ -124,7 +124,7 @@ body {
   100% { transform: translateY(0); }
 }
 
-.hero { 
+.hero {
   padding-block-start: 80px;
   & .container{
     & .hero-banner > img {
@@ -143,7 +143,7 @@ body {
       line-height: 1.5em;
       margin-block: 10px 30px;
     }
-    & .section-text { 
+    & .section-text {
       text-align: justify;
       margin-block: 30px;
     }
@@ -172,7 +172,7 @@ body {
             border: 2px solid var(--white);
           }
         }
-        & .fa-envelope{
+        & .lni-envelope{
           margin-right: 5px;
         }
       }
@@ -207,8 +207,8 @@ body {
               margin-block: 20px;
             }
             & ul{
-              & .card-text { 
-                color: var(--white); 
+              & .card-text {
+                color: var(--white);
                 list-style: inside;
               }
             }
@@ -236,8 +236,8 @@ body {
             display: flex;
             gap: 16px;
             padding-inline: 16px;
-            & .card-text { 
-              margin-block: 20px; 
+            & .card-text {
+              margin-block: 20px;
               text-align: justify;
             }
             & details{
@@ -251,7 +251,7 @@ body {
                 color: var(--roman-silver);
               }
             }
-          }          
+          }
         }
       }
     }
@@ -338,7 +338,7 @@ body {
       -webkit-transform: rotate(45deg) translateX(-0.7em); opacity: 0.4;
   }
   100%{
-      -webkit-transform: rotate(25deg) translateX(0); opacity: 0.9; 
+      -webkit-transform: rotate(25deg) translateX(0); opacity: 0.9;
   }
 }
 
@@ -410,8 +410,8 @@ body {
   }
 }
 
-.contact { 
-  padding-block-end: 0; 
+.contact {
+  padding-block-end: 0;
   margin-bottom: 40px;
   padding-top: 0px;
   & .container{
@@ -433,8 +433,8 @@ body {
             font-size: 60px;
           }
         }
-        & .section-title{ 
-          margin-block-start: 20px; 
+        & .section-title{
+          margin-block-start: 20px;
         }
         & .section-text{
           margin-bottom: 20px;
@@ -510,8 +510,8 @@ body {
         border-radius: var(--radius-circle);
         color: var(--white);
         transition: var(--transition-1);
-        &:is(:hover, :focus-visible) { 
-          border-color: var(--white); 
+        &:is(:hover, :focus-visible) {
+          border-color: var(--white);
         }
       }
     }
